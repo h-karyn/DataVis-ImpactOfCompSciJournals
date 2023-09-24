@@ -1,18 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>D3 Project Starter Template</title>
+    <title>447 Project</title>
     <meta charset="UTF-8">
-    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <link rel="icon" href="data:;base64,iVBORwOKGO="/>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>    
-    <!-- Add HTML content, SVG drawing area, ... -->
-    
-    <!-- D3 bundle -->
-    <script src="js/d3.v6.min.js"></script>
 
-    <!-- Our JS code -->
-    <script src="js/main.js"></script>
+<h1>Computer Science Journal Citation Report</h1>
+
+<body>
+<!-- Add HTML content, SVG drawing area, ... -->
+<ul class="legend">
+    <li class="legend-btn" data-type="BioInfo"><span class="legend-symbol"></span> Bioinfo</li>
+    <li class="legend-btn" data-type="IT"><span class="legend-symbol"></span> IT</li>
+    <li class="legend-btn" data-type="System_hardware_robotics"><span class="legend-symbol"></span>
+        System_hardware_robotics
+    </li>
+    <li class="legend-btn" data-type="AI"><span class="legend-symbol"></span> AI</li>
+    <li class="legend-btn" data-type="Interdisciplinary"><span class="legend-symbol"></span> Interdisciplinary</li>
+    <li class="legend-btn" data-type="Methods"><span class="legend-symbol"></span> Methods</li>
+    <li class="legend-btn" data-type="Software"><span class="legend-symbol"></span> Software</li>
+</ul>
+<!-- D3 bundle -->
+<script src="js/d3.v6.min.js"></script>
+<script src="js/d3-regression.min.js"></script>
+<div id="tooltip"></div>
+
+
+<div style="display: flex;">
+    <div style="display: flex; flex-direction: column; margin-right: 20px;">
+        <svg id="beeswarm" style="margin-bottom: 15px;"></svg>
+
+        <div style="display: flex;">
+            <svg id="scatter-plot" style="margin-right: 15px;"></svg>
+            <svg id="bar-chart"></svg>
+        </div>
+        <br>
+        <br/>
+    </div>
+
+    <div style="max-width: 200px; text-align: left;">
+        <p>Publications are critical in the academic world. Researchers aspire to publish their work in reputable
+            journals, but it can be daunting to
+            navigate the vast landscape of scholarly publications, especially for junior researchers.
+            <br><br/>
+            Our project aims to provide computer science researchers with a comprehensive overview of the current
+            academic journal landscape, empowering them to make more informed decisions when selecting a journal
+            for their work.
+
+            <br><br/>
+            We will focus on journal subfields and three key metrics:
+            <strong>Open Access rate</strong>, <strong>Journal Impact Factor and Volume</strong>, and
+            <strong>Journal Impact Factor Quantile</strong>.
+            By analyzing these metrics across various subfields, we hope to equip researchers with the knowledge needed
+            to publish their work in high-quality venues.</p>
+    </div>
+</div>
+
+<!-- Our JS code -->
+<script src="js/main.js"></script>
+<script src="js/beeswarm.js"></script>
+<script src="js/ScatterPlot.js"></script>
+<script src="js/barChart.js"></script>
 </body>
 </html>
