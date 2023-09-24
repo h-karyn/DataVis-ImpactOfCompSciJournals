@@ -87,22 +87,11 @@ The visualization will consist of one legend, tooltips, and three graphs (beeswa
 - Karyn is an undergraduate student who has not decided on her research topic. She wants to find out which computer science research area has a higher proportion of good journals, so she can choose her research area wisely. She believes that good journals have a high Impact Factor score, so she wants to find topics with the highest proportion of high Impact Factor journals
 - Hao Chen as an assistant professor, wants to find open access so that his graduate students can easily test and replicate the work in the published articles. He wants to find journals with high Open Access ratings in his research field (Robotics).
 
-## 6. Team Communication Plan
 
-We will be meeting every Tuesday in person after class and every Thursday via Zoom. The duration will depend on the work allocated for the given week. If any member is struggling with their tasks, we will use messaging to communicate with other members. The expected response time will be within 3 hours during the day. If an additional meeting is required, we will find a time slot that works for all three of us.
-
-Steps when members stop complying with the agreed-on communication plan:
-
-1. Approach the team member privately: Initiate a private conversation with the individual through messages.
-2. Express concerns: Clearly and respectfully communicate our concerns regarding their adherence to the communication plan.
-3. Listen and understand: Give the team members an opportunity to explain their perspectives. If the member is facing an emergency situation, discuss the issue with the professor and consider reallocating the work.
-4. Escalate if necessary: If the team member continues to not comply with the communication plan despite your efforts, it may be necessary to involve the professor and teaching assistant. Provide them with a clear overview of the issue, the steps you have taken, and the outcome of your attempts to resolve the situation.
-5. Reevaluate the communication plan: If the issue affects multiple team members, it might be necessary to reevaluate the communication plan itself.
-
-## 7. Acknowledgement
+## 6. Acknowledgement
 This was a team project for UBC CPSC 447 - Introduction to Data visualization taught by [Dr. Tamara Munzner](https://www.cs.ubc.ca/~tmm/). I came up with this project idea and initial design, and implemented the interactivity for the three subplots. My teammates Hao Chen Lu and Mingyuan Zhu implemented the static version of the subplots. 
 
 
-## 8. References:
+## 7. References:
 
 1. [https://jcr.clarivate.com/jcr/browse-categories](https://jcr.clarivate.com/jcr/browse-categories)
